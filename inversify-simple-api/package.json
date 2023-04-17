@@ -1,0 +1,16 @@
+{
+  "name": "inversify-simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "npx eslint ./src/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.8.3",
+    "inversify-express-utils": "^6.4.3"
+  }
+}
